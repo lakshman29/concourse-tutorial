@@ -1,9 +1,9 @@
 ---
 platform: linux
 
-#image_resource:
- # type: docker-image
-  #source: {repository: concourse/concourse-ci}
+image_resource:
+  type: docker-image
+  source: {repository: concourse/concourse-ci}
 
 inputs:
   - name: resource-tutorial
