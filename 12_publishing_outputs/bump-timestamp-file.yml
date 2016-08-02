@@ -2,11 +2,11 @@
 platform: linux
 
 image_resource:
-  #type: docker-image
-  #source: {repository: concourse/concourse-ci}
-  type: git
-  source:
-    uri: https://github.com/lakshman29/concourse-tutorial.git
+  type: docker-image
+  source: {repository: gitlab/gitlab-ce}
+ # type: git
+  #source:
+   # uri: https://github.com/lakshman29/concourse-tutorial.git
 
 inputs:
   - name: resource-tutorial
