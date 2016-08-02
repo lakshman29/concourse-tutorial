@@ -13,6 +13,6 @@ git config --global user.name "lakshman29"
 
 git add .
 git commit -m "Bumped date"
-git remote add origin https://github.com/lakshman29/practice-web.git
+git remote add origin https://github.com/lakshman29/practice-web1.git
 git remote -v 
 git push -u origin master
