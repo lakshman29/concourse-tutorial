@@ -15,4 +15,4 @@ git add .
 git commit -m "Bumped date"
 #git remote add origin https://github.com/lakshman29/practice-web.git
 #git remote -v 
-git push -u master master
+git push -u origin master
