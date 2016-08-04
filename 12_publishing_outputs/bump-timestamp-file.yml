@@ -20,4 +20,6 @@ outputs:
 
 run:
   #path: resource-tutorial/12_publishing_outputs/bump-timestamp-file.sh
-  path: resource-tutorial/12_publishing_outputs/push.sh
+  #path: resource-tutorial/12_publishing_outputs/push.sh
+  path: sh
+  args: ["resource-tutorial/12_publishing_outputs/push.sh"]
